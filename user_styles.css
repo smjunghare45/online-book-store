@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+
+.container{
+  min-height: 100vh; 
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  font-size: 1.2rem;
+  
+}
+
+
+
+.container form{
+width: 100%;
+border-radius: 0.5rem;
+border:5px;
+background-color: var(--white);
+border-color: black;
+justify-content: center;
+align-items: center;
+}
+.container form {
+  font-family: 'Comfortoo', cursive;
+  font-size: 1.2rem;
+}
+.container .form {
+  font-family: 'Comfortoo',cursive;
+}
+
+.container form .box{
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.1rem;
+  border: var(--border);
+  margin:1rem 0;
+  font-family: 'Source Code Pro',monospace;
+}
+
+
+.message{
+  position:sticky;
+  margin:0 auto;
+  align-items: center;
+  background-color: lightcyan;
+  justify-content: center;
+  display:flex;
+}
